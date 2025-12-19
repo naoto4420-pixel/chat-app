@@ -2,6 +2,9 @@
   display: flex;
 }
 
+/*
+サイドバー
+*/
 .side_bar{
   background-color: #253141;
   width: 300px;
@@ -12,14 +15,44 @@
   background-color: #253141;
   height: 100px;
   padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side_bar_header_username{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.side_bar_header_btn{
+  color: deepskyblue;
+  font-size: 10px;
+  text-decoration: none;
+  padding: 14px;
+  border: 1px solid lightblue;
 }
 
 .rooms{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0px 20px;
+  overflow: scroll;
 }
 
+.room{
+  margin: 20px 0px 40px;
+}
+
+.roomname{
+  color: white;
+  text-decoration: none;
+}
+
+/*
+チャット画面
+*/
 .main_chat{
   background-color: #ffffff;
   width: calc(100vw - 300px);
