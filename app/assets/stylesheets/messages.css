@@ -45,7 +45,7 @@
   margin: 20px 0px 40px;
 }
 
-.roomname{
+.room_name a {
   color: white;
   text-decoration: none;
 }
